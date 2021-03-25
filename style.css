@@ -33,6 +33,7 @@ line-height: 70px;
 }
 
 ul li{
+display: block
 display: inline-block;
 padding: 5px 20px;
 margin-left: 10px;
