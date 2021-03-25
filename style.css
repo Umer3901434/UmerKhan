@@ -1,6 +1,6 @@
 body{
 margin: 0;
-paddling: 0;
+padding: 0;
 font-family: Titillium Web;
 colour: darkgrey;
 background: #f3f3f3;
@@ -34,7 +34,7 @@ line-height: 70px;
 
 ul li{
 display: inline-block;
-paddling: 5px 20px;
+padding: 5px 20px;
 margin-left: 10px;
 background: #f3f3f3;
 line-height: normal;
@@ -42,7 +42,7 @@ line-height: normal;
 
 .content h2{
 background: #ff4719;
-paddling: 10px;
+padding: 10px;
 border-radius: Spx;
 margin-botton: 20px;
 }
