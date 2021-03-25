@@ -21,4 +21,9 @@ background: #fff;
 margin-bottom: 20px;
 }
 
-.logo
+.logo{
+float: left;
+margin-top: 10px;
+}
+
+
