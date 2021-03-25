@@ -21,9 +21,20 @@ background: #fff;
 margin-bottom: 20px;
 }
 
-.logo{
+.img{
 float: left;
 margin-top: 10px;
 }
 
+nav{
+floats: right;
+line-height: 70px;
+}
 
+nav li{
+display: inline-block;
+paddling: 5px 20px;
+margin-left: 10px;
+background: #f3f3f3;
+line-height: normal;
+}
