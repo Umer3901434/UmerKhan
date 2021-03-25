@@ -1,89 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Page Layout</title>
-	<style>
-		.head1 {
-			font-size:40px;
-			color:#0033cc;
-			font-weight:bold;
-		}
-		.head2 {
-			font-size:17px;
-			margin-left:10px;
-			margin-bottom:15px;
-		}
-		body {
-			margin: 0 auto;
-			background-position:center;
-			background-size: contain;
-		}
-	
-		.menu {
-			position: sticky;
-			top: 0;
-			background-color: #009900;
-			padding:10px 0px 10px 0px;
-			color:white;
-			margin: 0 auto;
-			overflow: hidden;
-		}
-		.menu a {
-			float: left;
-			color: white;
-			text-align: center;
-			padding: 14px 16px;
-			text-decoration: none;
-			font-size: 20px;
-		}
-		.menu-log {
-			right: auto;
-			float: right;
-		}
-		footer {
-			width: 100%;
-			bottom: 0px;
-			background-color: #000;
-			color: #fff;
-			position: absolute;
-			padding-top:20px;
-			padding-bottom:50px;
-			text-align:center;
-			font-size:30px;
-			font-weight:bold;
-		}
-		.body_sec {
-			margin-left:20px;
-		}
-	</style>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example of Bootstrap 2 Unequal Column Layout for Tablets and Desktops</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+    .row > div{
+        margin-bottom: 15px;
+    }
+    .header{
+        min-height: 90px;
+    }
+    .footer{
+        min-height: 60px;
+    }
+    .header, .footer{
+        background: #2f2f2f;
+    }
+    .sidebar{
+        background: #dbdfe5;
+    }
+    .content{
+        background: #b4bac0;
+    }
+    .sidebar, .content{
+        min-height: 300px;
+    }
+</style>
 </head>
-
 <body>
-	
-	<!-- Header Section -->
-	<header>
-		<div class="head1">GeeksforGeeks</div>
-		<div class="head2">A computer science portal for geeks</div>
-	</header>
-	
-	<!-- Menu Navigation Bar -->
-	<div class="menu">
-		<a href="#home">HOME</a>
-		<a href="#news">NEWS</a>
-		<a href="#notification">NOTIFICATIONS</a>
-		<div class="menu-log">
-			<a href="#login">LOGIN</a>
-		</div>
-	</div>
-	
-	<!-- Body section -->
-	<div class = "body_sec">
-		<section id="Content">
-			<h3>Content section</h3>
-		</section>
-	</div>
-	
-	<!-- Footer Section -->
-	<footer>Footer Section</footer>
+    <!-- Open the output in a new blank tab (Click the arrow next to "Show Output" button) and resize the browser window to understand how the Bootstrap responsive grid system works. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="header"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="sidebar"></div>
+            </div>
+            <div class="col-sm-9">
+                <div class="content"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="footer"></div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>					
+</html>               
