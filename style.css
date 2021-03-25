@@ -39,3 +39,16 @@ margin-left: 10px;
 background: #f3f3f3;
 line-height: normal;
 }
+
+.content h2{
+background: #ff4719;
+paddling: 10px;
+border-radius: Spx;
+margin-botton: 20px;
+}
+
+.content article{
+float: left;
+width: 600px;
+}
+
