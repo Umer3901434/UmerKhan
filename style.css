@@ -48,8 +48,9 @@ margin-botton: 20px;
 }
 
 .content article{
-float: left;
-width: 600px;
+  float: left;
+  width: 600px;
+
 }
 
 .face {
